@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "IPL Guru",
+    "slug": "IPL",
+    "version": "1.2.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000022"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-1918796407964963~1482316484"
+      },
+      "package": "com.iplguru"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "facebookScheme": "fb1234567891234567",
+    "facebookAppId": "415633187039482",
+    "facebookDisplayName": "IPL Guru",
+    "facebookAutoLogAppEventsEnabled": true,
+    "facebookAdvertiserIDCollectionEnabled": true,
+    "plugins": [
+      [
+        "expo-ads-facebook",
+        {
+          "userTrackingPermission": "This identifier will be used to deliver personalized ads to you."
+        }
+      ]
+    ]
+  }
+}
